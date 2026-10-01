@@ -1,5 +1,7 @@
 # myDATA XML → receipt (demo)
 
+**Live:** https://mydata-receipt-demo.vercel.app
+
 ![The demo: the form on the left, the receipt rendered from the generated XML on the right](./media/screenshot.png)
 
 A typed TypeScript library that builds **AADE myDATA `InvoicesDoc` XML** (schema v2.0.2) for a

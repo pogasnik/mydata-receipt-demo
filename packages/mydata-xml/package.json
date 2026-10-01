@@ -1,0 +1,40 @@
+{
+  "name": "@pogasnik/mydata-xml",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Nikolaos Pogas",
+  "description": "Typed builder and parser for AADE myDATA InvoicesDoc XML (v2.0.2), with XSD validation.",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./validate": {
+      "types": "./dist/validate.d.ts",
+      "import": "./dist/validate.js"
+    }
+  },
+  "files": [
+    "dist",
+    "xsd"
+  ],
+  "scripts": {
+    "embed-xsd": "node scripts/embed-xsd.mjs",
+    "build": "node scripts/embed-xsd.mjs && tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --coverage"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.11.2",
+    "fast-xml-validator": "^1.4.2",
+    "xmllint-wasm": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.0",
+    "@vitest/coverage-v8": "^5.0.3",
+    "vitest": "^5.0.3"
+  }
+}

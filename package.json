@@ -1,0 +1,30 @@
+{
+  "name": "mydata-receipt-demo",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Nikolaos Pogas",
+  "type": "module",
+  "packageManager": "pnpm@10.33.4",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm --filter @pogasnik/mydata-xml build && pnpm --filter @pogasnik/mydata-demo dev",
+    "lint": "eslint .",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.11.0",
+    "eslint-config-next": "16.3.8",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.9",
+    "typescript": "5.9.3",
+    "typescript-eslint": "^8.71.0"
+  }
+}

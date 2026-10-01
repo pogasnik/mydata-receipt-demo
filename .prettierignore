@@ -1,0 +1,9 @@
+pnpm-lock.yaml
+dist/
+coverage/
+.next/
+out/
+docs/
+packages/mydata-xml/xsd/
+packages/mydata-xml/src/generated/
+apps/demo/public/fonts/

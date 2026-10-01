@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.vercel/
+.DS_Store
+.env*
+
+# Local copies of the public AADE documentation (large PDFs); the XSDs the
+# code depends on are vendored under packages/mydata-xml/xsd/.
+docs/

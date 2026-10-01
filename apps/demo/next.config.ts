@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   images: { unoptimized: true },
+  // Don't write AGENTS.md / CLAUDE.md into the app on `next dev`.
+  agentRules: false,
 };
 
 export default nextConfig;

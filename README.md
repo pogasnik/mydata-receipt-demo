@@ -1,6 +1,6 @@
 # myDATA XML → receipt (demo)
 
-![Demo: filling the form, the XML updating, downloading the receipt PDF](./media/demo.gif)
+![The demo: the form on the left, the receipt rendered from the generated XML on the right](./media/screenshot.png)
 
 A typed TypeScript library that builds **AADE myDATA `InvoicesDoc` XML** (schema v2.0.2) for a
 Greek retail receipt (**11.1 Απόδειξη Λιανικής Πώλησης**) and a sales invoice (**1.1 Τιμολόγιο
@@ -159,7 +159,7 @@ Directory `apps/demo`**; [`apps/demo/vercel.json`](./apps/demo/vercel.json) buil
 
 ## Author and licence
 
-Nikolaos Pogas · [github.com/pogasnik](https://github.com/pogasnik) · Portfolio: <!-- TODO: portfolio URL -->
+Nikolaos Pogas · [github.com/pogasnik](https://github.com/pogasnik)
 
 Copyright © 2026 Nikolaos Pogas. **All rights reserved.** The source is published for viewing
 as a portfolio sample only; no permission is granted to use, copy, modify or distribute it. See

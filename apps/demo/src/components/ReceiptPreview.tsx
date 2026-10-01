@@ -6,7 +6,8 @@ export function ReceiptPreview({ view }: { view: ReceiptView }) {
     <article className="paper" aria-label={`${view.title} (${WATERMARK_EN})`}>
       <div className="paper-watermark" aria-hidden="true">
         {Array.from({ length: 40 }, (_, i) => (
-          <span key={i}>{WATERMARK}</span>
+          // Each row repeats the text so it spans the whole rotated layer.
+          <span key={i}>{`${WATERMARK} · ${WATERMARK} · ${WATERMARK}`}</span>
         ))}
       </div>
 

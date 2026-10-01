@@ -1,0 +1,2 @@
+# Vendored AADE schemas are kept byte-for-byte (CRLF line endings, checksummed).
+packages/mydata-xml/xsd/*.xsd -text

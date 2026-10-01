@@ -22,7 +22,7 @@ export const VAT_EXEMPTION_MAX = 31;
 export const PAYMENT_METHODS = {
   3: { el: 'Μετρητά', en: 'Cash' },
   5: { el: 'Επί πιστώσει', en: 'On credit' },
-  7: { el: 'POS / e-POS', en: 'Card (POS / e-POS)' },
+  7: { el: 'POS / e-POS', en: 'Card' },
 } as const;
 
 export type PaymentMethod = keyof typeof PAYMENT_METHODS;
